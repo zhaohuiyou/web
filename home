@@ -1,0 +1,442 @@
+<html><head>
+	
+	<title>Point Star</title>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8">
+	<style media="screen" type="text/css">
+	<!设置图片的自适应屏幕>
+img{height: auto; width: auto\9; width:100%;}
+
+
+
+
+	html,
+	body {
+		margin:0;
+		padding:0;
+		height:80%;
+	}
+	#container {
+		min-height:100%;
+		position:relative;
+	}
+	#header {
+		background:#ff0;
+		padding:10px;
+	}
+	#body {
+		padding:10px;
+		padding-bottom:60px;	/* Height of the footer */
+	}
+	#footer {
+		position:absolute;
+		bottom:-10px;
+		text-align:center;
+		color:white;
+		width:100%;
+		height:60px;			/* Height of the footer */
+		background:black;
+	}
+	/* other non-essential CSS */
+	#header p,
+	#header h1 {
+		margin:0;
+		padding:10px 0 0 10px;
+	}
+	#footer p {
+		margin:0;
+		padding:10px;
+	}
+	.middel {
+
+	text-align:center;margin:auto;
+
+}
+
+.rowtop2{ 
+
+ 	line-height:52px;
+
+	height:55px;
+
+	width:200px;
+
+	color:#f9f9f9;
+
+	background-color:#FF5151;
+
+	font-size:18px;
+
+	font-weight:550;
+
+	font-family:Arial;
+
+	border:0px solid #dcdcdc;
+
+	-webkit-border-top-left-radius:30px;
+
+	-moz-border-radius-topleft:30px;
+
+	border-top-left-radius:30px;
+
+	-webkit-border-top-right-radius:30px;
+
+	-moz-border-radius-topright:30px;
+
+	border-top-right-radius:30px;
+
+	-webkit-border-bottom-left-radius:30px;
+
+	-moz-border-radius-bottomleft:30px;
+
+	border-bottom-left-radius:30px;
+
+	-webkit-border-bottom-right-radius:30px;
+
+	-moz-border-radius-bottomright:30px;
+
+	border-bottom-right-radius:30px;
+
+	-moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
+
+	-webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
+
+	box-shadow: inset 0px 0px 0px 0px #ffffff;
+
+	text-align:center;
+
+	display:inline-block;
+
+	text-decoration:none;
+
+	margin-bottom:20px;
+
+	
+
+}
+
+.rowtop2:hover {
+
+	background-color:#FF5151;
+
+}
+.rowtop2{ 
+
+ 	line-height:52px;
+
+	height:54px;
+
+	width:200px;
+
+	color:#f9f9f9;
+
+	background-color:#00AEAE;
+
+	font-size:16px;
+
+	font-weight:550;
+
+	font-family:Arial;
+
+	border:0px solid #dcdcdc;
+
+	-webkit-border-top-left-radius:30px;
+
+	-moz-border-radius-topleft:30px;
+
+	border-top-left-radius:30px;
+
+	-webkit-border-top-right-radius:30px;
+
+	-moz-border-radius-topright:30px;
+
+	border-top-right-radius:30px;
+
+	-webkit-border-bottom-left-radius:30px;
+
+	-moz-border-radius-bottomleft:30px;
+
+	border-bottom-left-radius:30px;
+
+	-webkit-border-bottom-right-radius:30px;
+
+	-moz-border-radius-bottomright:30px;
+
+	border-bottom-right-radius:30px;
+
+	-moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
+
+	-webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
+
+	box-shadow: inset 0px 0px 0px 0px #ffffff;
+
+	text-align:center;
+
+	display:inline-block;
+
+	text-decoration:none;
+
+	margin-bottom:20px;
+
+	
+
+}
+
+.rowtop2:hover {
+
+	background-color:#00AEAE;
+
+}
+.rowtop3{ 
+
+ 	line-height:52px;
+
+	height:54px;
+
+	width:260px;
+
+	color:#f9f9f9;
+
+	background-color:#CE0000;
+
+	font-size:16px;
+
+	font-weight:550;
+
+	font-family:Arial;
+
+	border:0px solid #dcdcdc;
+
+	-webkit-border-top-left-radius:30px;
+
+	-moz-border-radius-topleft:30px;
+
+	border-top-left-radius:30px;
+
+	-webkit-border-top-right-radius:30px;
+
+	-moz-border-radius-topright:30px;
+
+	border-top-right-radius:30px;
+
+	-webkit-border-bottom-left-radius:30px;
+
+	-moz-border-radius-bottomleft:30px;
+
+	border-bottom-left-radius:30px;
+
+	-webkit-border-bottom-right-radius:30px;
+
+	-moz-border-radius-bottomright:30px;
+
+	border-bottom-right-radius:30px;
+
+	-moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
+
+	-webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
+
+	box-shadow: inset 0px 0px 0px 0px #ffffff;
+
+	text-align:center;
+
+	display:inline-block;
+
+	text-decoration:none;
+
+	margin-bottom:30px;
+
+	
+
+}
+
+.rowtop3:hover {
+
+	background-color:#CE0000;
+
+}
+
+
+   h1{
+
+     color:#CE0000;
+
+     }
+
+   h2{
+
+   color:#B088FF;
+
+   }
+   h3{
+            
+        color:#9F35FF;
+   }
+
+   body{
+
+   background:#ACD6FF;
+
+   }
+   </style>
+	</style>
+	<!--[if lt IE 7]>
+	<style media="screen" type="text/css">
+	#container {
+		height:100%;
+	}
+	</style>
+	<![endif]-->
+<style>
+html, * {-webkit-user-select:text!important; -moz-user-select:text!important;}
+</style></head>
+<body>
+    <marquee direction=left>励志名言："知识就是力量！"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;""业精于勤，荒于嬉&nbsp;;&nbsp;行成于思，毁于随。"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"击石乃有火，不击元无烟&nbsp;;&nbsp;人学始知道，不学非自然&nbsp;;&nbsp;万事须己运，他得非我贤&nbsp;;&nbsp;青春须早为，岂能长少年。"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"内观之道，静神定心，乱想不起，邪妄不侵。
+固身及物，闭目思寻，表里虚寂，神道微深。
+外观万境，内察一心。了然明静，静乱俱息。
+念念相系，深根宁极。湛然常住，杳冥难测。
+忧患永消，是非莫识。"</marquee>
+<div class="middel">
+<dt>
+
+ <h2 data="FOLDER"> 服务专区</h2>
+ <h2>
+ <a href="https://zhaohuiyou.github.io/index" class="rowtop2">Github个人页面</a>&nbsp;
+ <a href="https://zhaohuiyou.gitee.io/" class="rowtop2">Gitee个人页面 </a>&nbsp;
+ <a href="https://gitee.com/zhaohuiyou" class="rowtop2">我的Gitee </a>&nbsp;
+ <a href="https://github.com/zhaohuiyou" class="rowtop2">我的Github </a>&nbsp;
+ <a href="https://blog-1259135023.cos.ap-guangzhou.myqcloud.com/index.html" class="rowtop2">我的博客(废弃)</a>&nbsp;
+ <a href="https://video.isyour.love/" class="rowtop2">视频解析</a>&nbsp;
+ <a href="http://bumimi.vip/" class="rowtop2">布米米</a>&nbsp;
+    </h2>
+<h2 data="FOLDER">(OLD)技术学习区</h2>
+<a href="https://gitee.com/all-about-git" class="rowtop2">Git大全</a>&nbsp;&nbsp;
+<a href="https://oschina.gitee.io/learn-git-branching/" class="rowtop2">Git 命令学习</a>&nbsp;&nbsp;
+<a href="https://help.github.com/en/articles/basic-writing-and-formatting-syntax" class="rowtop2">Github语法</a>&nbsp;&nbsp;
+<a href="https://gitee.com/gvp" class="rowtop2">GVP项目</a>&nbsp;&nbsp;
+<a href="https://blog.gitee.com/" class="rowtop2">码云博客</a>&nbsp;&nbsp;
+<a href="https://gitee.com/help#article-header0" class="rowtop2">码云帮助文档</a>&nbsp;&nbsp;
+<a href="https://linux.cn/" class="rowtop2">Linux中国</a>&nbsp;&nbsp;
+<a href="http://openresty.org/cn/" class="rowtop2">OpenResty</a>&nbsp;&nbsp;
+<a href="http://c.biancheng.net/sitemap/" class="rowtop2">技术网站地图</a>&nbsp;&nbsp;
+<a href="http://www.codeceo.com/" class="rowtop2">码农网</a>&nbsp;&nbsp;
+<a href="https://www.runoob.com/" class="rowtop2">菜鸟教程</a>&nbsp;&nbsp;
+<a href="https://www.oschina.net" class="rowtop2">开源中国</a>&nbsp;&nbsp;
+<a href="https://github.com/jaywcjlove" class="rowtop2">jay的Github</a>&nbsp;&nbsp;
+<a href="http://www.java1234.com/" class="rowtop2">Java知识分享网</a>&nbsp;&nbsp;
+<a href="https://code.ziqiangxuetang.com/" class="rowtop2">自强学堂</a>&nbsp;&nbsp;
+<a href="http://code.ciaoca.com/" class="rowtop2">前端开发仓库</a>&nbsp;&nbsp;
+<a href="http://www.shouce.ren/" class="rowtop2">手册网</a>&nbsp;&nbsp;
+<a href="https://www.tiobe.com/tiobe-index/" class="rowtop2">编程语言排行</a>&nbsp;&nbsp;
+<a href="https://bbs.pediy.com/" class="rowtop2">看雪论坛</a>&nbsp;&nbsp;
+<a href="https://www.liaoxuefeng.com/" class="rowtop2">廖雪峰网站</a>&nbsp;&nbsp;
+
+
+<h2 data="FOLDER">书籍搜索区</h2>
+<a href="https://www.jiumodiary.com/" class="rowtop2">鸠摩搜索</a>&nbsp;&nbsp;
+<a href="https://github.com/justjavac/free-programming-books-zh_CN" class="rowtop2">书籍Share</a>&nbsp;&nbsp;
+<a href="https://ebook.huzerui.com/" class="rowtop2">熊猫搜书</a>&nbsp;&nbsp;
+<a href="https://lorefree.com/" class="rowtop2">LoreFree</a>&nbsp;&nbsp;
+<a href="https://sobooks.cc/" class="rowtop2">SoBook</a>&nbsp;&nbsp;
+
+<h2 data="FOLDER">文学学习区</h2>
+
+<a href="http://gx.httpcn.com/zt/24shi/" class="rowtop2">24史白话文</a>&nbsp;&nbsp;
+<a href="http://m.sbkk8.com/gudai/gudaibingshu/" class="rowtop2">古代兵书</a>&nbsp;&nbsp;
+<a href="http://m.sbkk8.com/" class="rowtop2">天涯知识库</a>&nbsp;&nbsp;
+
+<h2 data="FOLDER">镜像区</h2>
+<a href="http://mirrors.163.com" class="rowtop2">网易镜像</a>&nbsp;&nbsp;
+<a href="https://npm.taobao.org/mirrors/git-for-windows/" class="rowtop2">Git软件镜像</a>&nbsp;&nbsp;
+<a href="https://npm.taobao.org/" class="rowtop2">淘宝镜像</a>&nbsp;&nbsp;
+<a href="http://mirror.bjtu.edu.cn/" class="rowtop2">北京交通大学镜像</a>&nbsp;&nbsp;
+<a href="http://mirrors.ustc.edu.cn" class="rowtop2">中国科技大学镜像</a>&nbsp;&nbsp;
+<a href="http://mirrors.tuna.tsinghua.edu.cn/" class="rowtop2">清华大学镜像1</a>&nbsp;&nbsp;
+<a href="http://mirrors6.tuna.tsinghua.edu.cn/" class="rowtop2">清华大学镜像2</a>&nbsp;&nbsp;
+<a href="https://opsx.alibaba.com/" class="rowtop2">阿里镜像</a>&nbsp;&nbsp;
+<a href="http://mirrors.sohu.com" class="rowtop2">搜狐镜像</a>&nbsp;&nbsp;
+<a href="http://mirror.lzu.edu.cn/" class="rowtop2">兰州大学镜像</a>&nbsp;&nbsp;
+<a href="https://www.debian.org/mirror/list.zh-cn.html" class="rowtop2">Debian全球镜像站</a>
+<a href="https://mirrors.cloud.tencent.com/" class="rowtop2">腾讯软件源</a>
+
+<h2 data="FOLDER">英语学习区</h2>
+<a href="http://language.chinadaily.com.cn/" class="rowtop2">英语点津</a>&nbsp;&nbsp;
+<a href="http://en.1speaking.com/m_index.htm" class="rowtop2">英语第一口语网</a>&nbsp;&nbsp;
+<a href="http://www.qcenglish.com/" class="rowtop2">七彩英语</a>&nbsp;&nbsp;
+<a href="http://www.yywz123.com/" class="rowtop2">英语学习网站大全</a>&nbsp;&nbsp;
+<a href="https://www.51voa.com/" class="rowtop2">VOA美国之音</a>&nbsp;&nbsp;
+
+<h2 data="FOLDER">实用区</h2>
+<a href="https://chaipip.com/" class="rowtop2">高精度IP查询</a>&nbsp;&nbsp;
+<a href="https://filezilla-project.org" class="rowtop2">filezilla</a>&nbsp;&nbsp;
+<a href="https://habo.qq.com/" class="rowtop2">腾讯哈勃</a>&nbsp;&nbsp;
+<a href="http://ilxdh.com/" class="rowtop2">龙轩导航</a>&nbsp;&nbsp;
+<a href="http://typhoon.zjwater.gov.cn/default.aspx" class="rowtop2">台风路径系统</a>&nbsp;&nbsp;
+<a href="https://greasyfork.org/zh-CN" class="rowtop2">油猴脚本</a>&nbsp;&nbsp;
+<a href="http://coolaf.com/zh" class="rowtop2">POST测试</a>&nbsp;&nbsp;
+<a href="https://msdn.itellyou.cn/" class="rowtop2">I tell you</a>&nbsp;&nbsp;
+<a href="http://via-app.cn/" class="rowtop2">Via浏览器插件</a>&nbsp;&nbsp;
+<a href="http://dgsx.gdyvc.cn/suite/login.do?portalId=A&siteKey=2363" class="rowtop2">学校实习平台</a>&nbsp;&nbsp;
+<a href="https://www.gdyvc.cn/" class="rowtop2">广东青年职业学院</a>&nbsp;&nbsp;
+<a href="https://www.bypass.cn/" class="rowtop2">分流抢票</a>&nbsp;&nbsp;
+<a href="https://3g.163.com/html/frontend/today-news-hotrank/index.html?from=history-back-list/" class="rowtop2">网易新闻头条</a>&nbsp;&nbsp;
+<a href="https://www.landiannews.com/" class="rowtop2">蓝点网</a>&nbsp;&nbsp;
+<a href="https://www.freewhale.us/auth/register" class="rowtop2">自由鲸</a>&nbsp;&nbsp;
+<a href="https://www.csls.cdb.com.cn/" class="rowtop2">国家开发银行</a>&nbsp;&nbsp;
+<a href="https://screen.bmcx.com/#welcome" class="rowtop2">在线屏幕检测</a>&nbsp;&nbsp;
+<a href="https://www.mozilla.org/zh-CN/firefox/all/#product-desktop-release" class="rowtop2">火狐浏览器</a>&nbsp;&nbsp;
+<a href="https://obsproject.com/" class="rowtop2">OBS Studio</a>&nbsp;&nbsp;
+<a href="https://www.gimp.org/downloads/" class="rowtop2">Gimp</a>&nbsp;&nbsp;
+
+
+<h2 data="FOLDER">(NEW)技术网站区</h2>
+<a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" class="rowtop2">Putty工具</a>&nbsp;&nbsp;
+<a href="https://www.keepalived.org/" class="rowtop2">keepalived</a>&nbsp;&nbsp;
+<a href="https://kubernetes.io/zh-cn/docs/home/" class="rowtop2">kubernetes</a>&nbsp;&nbsp;
+<a href="https://github.com/EASY233/Finger" class="rowtop2">host存活探测</a>&nbsp;&nbsp;
+<a href="https://help.aliyun.com/" class="rowtop2">阿里云帮助文档中心</a>&nbsp;&nbsp;
+<a href="https://next.api.aliyun.com/document" class="rowtop2">阿里云API文档</a>&nbsp;&nbsp;
+<a href="https://github.com/Wind4/vlmcsd-docker" class="rowtop2">KMS服务搭建</a>&nbsp;&nbsp;
+<a href="https://dbeaver.io/" class="rowtop2">Dbeaver</a>&nbsp;&nbsp;
+<a href="https://www.kali.org/" class="rowtop2">Kali系统</a>&nbsp;&nbsp;
+<a href="https://www.ddosi.org/" class="rowtop2">渗透学习网站</a>&nbsp;&nbsp;
+<a href="https://nmap.org/download.html#windows" class="rowtop2">Nmap</a>&nbsp;&nbsp;
+<a href="https://www.h3c.com/cn/Service/Document_Software/Document_Center/Switches/" class="rowtop2">华三交换机学习</a>&nbsp;&nbsp;
+<a href="https://github.com/projectdiscovery/nuclei/blob/master/README.md" class="rowtop2">Nuclei扫描工具</a>&nbsp;&nbsp;
+<a href="https://dash.cloudflare.com/login" class="rowtop2">cloudflare</a>&nbsp;&nbsp;
+<a href="https://github.com/TencentARC/GFPGAN" class="rowtop2">TencentARC</a>&nbsp;&nbsp;
+<a href="https://www.oracle.com/java/technologies/downloads/" class="rowtop2">Java SE</a>&nbsp;&nbsp;
+<a href="https://hub.docker.com/" class="rowtop2">docker仓库</a>&nbsp;&nbsp;
+<a href="https://www.backblaze.com/" class="rowtop2">backblaze</a>&nbsp;&nbsp;
+<a href="https://www.shouce.ren/api/view/a/6111" class="rowtop2">mysql手册网</a>&nbsp;&nbsp;
+<a href="https://github.com/WebGoat/WebGoat" class="rowtop2">WebGoat</a>&nbsp;&nbsp;
+<a href="https://github.com/opsxcq/docker-vulnerable-dvwa" class="rowtop2">DVWA</a>&nbsp;&nbsp;
+<a href="https://securitytrails.com/" class="rowtop2">域名源站获取</a>&nbsp;&nbsp;
+<a href="https://github.com/vulhub/vulhub/blob/master/README.zh-cn.md" class="rowtop2">Vulhub靶场</a>&nbsp;&nbsp;
+<a href="https://github.com/pbatard/rufus/releases" class="rowtop2">Rufus</a>&nbsp;&nbsp;
+<a href="https://bwh81.net/" class="rowtop2">搬瓦工服务器</a>&nbsp;&nbsp;
+<a href="https://docs.microsoft.com/zh-cn/office/vba/api/overview/" class="rowtop2">VBA官网文档</a>&nbsp;&nbsp;
+<a href="https://github.com/zbezj/HEU_KMS_Activator/releases" class="rowtop2">HEU_KMS</a>&nbsp;&nbsp;
+<a href="https://www.woodpecker.org.cn/" class="rowtop2">啄木鸟社区</a>&nbsp;&nbsp;
+<a href="https://www.runoob.com/w3cnote/pycharm-windows-install.html" class="rowtop2">Pycharm</a>&nbsp;&nbsp;
+<a href="https://nginx.org/" class="rowtop2">Nginx</a>&nbsp;&nbsp;
+<a href="https://tomcat.apache.org/" class="rowtop2">Tomcat</a>&nbsp;&nbsp;
+<a href="http://aria2.github.io/" class="rowtop2">aria2官网</a>&nbsp;&nbsp;
+<a href="http://www.manongjc.com/" class="rowtop2">码农教程</a>&nbsp;&nbsp;
+<a href="https://mobaxterm.mobatek.net/download.html" class="rowtop2">mobaxterm</a>&nbsp;&nbsp;
+<a href="https://letsencrypt.org/" class="rowtop2">HTTPS免费证书</a>&nbsp;&nbsp;
+<a href="https://dev.mysql.com/doc/" class="rowtop2">mysql官方文档</a>&nbsp;&nbsp;
+<a href="https://www.mysql.com/" class="rowtop2">mysql官网</a>&nbsp;&nbsp;
+<a href="https://mariadb.org/" class="rowtop2">mariadb官网</a>&nbsp;&nbsp;
+<a href="https://www.mongodb.com" class="rowtop2">Mongodb官网</a>&nbsp;&nbsp;
+<a href="https://redis.io/" class="rowtop2">Redis官网</a>&nbsp;&nbsp;
+<a href="https://portswigger.net/burp/documentation" class="rowtop2">Burp Suite官方文档</a>&nbsp;&nbsp;
+<a href="https://code.visualstudio.com/" class="rowtop2">VSCode</a>&nbsp;&nbsp;
+<a href="https://go.dev/" class="rowtop2">Golang官网</a>&nbsp;&nbsp;
+<a href="https://github.com/golang/go" class="rowtop2">GO_Github</a>&nbsp;&nbsp;
+<a href="https://github.com/baidu/dperf/" class="rowtop2">dperf压测工具</a>&nbsp;&nbsp;
+<a href="https://www.virustotal.com/gui/home/upload" class="rowtop2">virustotal</a>&nbsp;&nbsp;
+<a href="https://www.runoob.com/linux/linux-shell.html" class="rowtop2">菜鸟Shell教程</a>&nbsp;&nbsp;
+<a href="https://blog.csdn.net/w918589859/article/details/108752592" class="rowtop2">shell学习教程</a>&nbsp;&nbsp;
+
+</dt>
+    </div>
+</html>
